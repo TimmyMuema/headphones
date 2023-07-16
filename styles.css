@@ -1,0 +1,66 @@
+:root {
+    --body-font: "Source Sans Pro", sans-serif;
+    --header-bg-color: #000000;
+    --header-img-url: "images/headphones_hero_1.jpg";
+  }
+  
+  body {
+    font-family: var(--body-font);
+    margin: 0;
+  }
+  
+  .header {
+    background-color: var(--header-bg-color);
+    background-image: url(var(--header-img-url));
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .hero-content {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    margin-top: 250px;
+    padding: 0;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero-paragraph {
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .btn {
+    padding: 13px 31px;
+    color: white;
+    background: #ff6565;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    margin: 40px 0;
+  }
+  
